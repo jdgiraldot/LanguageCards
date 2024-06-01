@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Cards</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav>
+        <!-- Desktop menu -->
+        <p id="logo">TECNOLOGÍAS PARA LA WEB</p>
+        <ul class="menu">
+          <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+          <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+          <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+        </ul>
+        <ul class="account">
+          <li><a href="#">Login</a></li>
+          <li><a href="#" id="sign-up">Sign Up</a></li>
+        </ul>
+        <!-- Movile menu -->
+        <label for="dp-menu" id="lbl-dp-menu">☰</label>
+        <input type="checkbox" style="display: none" name="dp-menu" id="dp-menu">
+        <ul class="dropdown-menu">
+            <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+            <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+        </ul>
+        <ul class="dropdown-account">
+          <li><a href="#">Login</a></li>
+          <li><a href="#" id="sign-up">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="container__background-triangle">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle3"></div>
+    </div>
+    
+    <section class="container__cards">
+        <div class="card">
+            <div class="cover__card">
+                <img src="./assets/logo_html.png" alt="">
+            </div>
+            <h2>HTML 5</h2>
+            <p>Lenguaje de marcado para estructurar y presentar contenido en la web. Introduce nuevas etiquetas, como audio, video y canvas, mejorando la semántica y accesibilidad.</p>
+            <hr>
+            <div class="footer__card">
+                <h3 class="user__name">John Castiblanco</h3>
+                <i>01 Junio</i>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cover__card">
+                <img src="./assets/logo_js.png" alt="">
+            </div>
+            <h2>JavaScript ES13</h2>
+            <p>Última versión de JavaScript. Añade clases privadas, métodos de instancia y módulos top-level await, facilitando código más limpio y eficiente para aplicaciones web.</p>
+            <hr>
+            <div class="footer__card">
+                <h3 class="user__name">Gina Galindo</h3>
+                <i>02 Junio</i>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cover__card">
+                <img src="./assets/logo_css.png" alt="">
+            </div>
+            <h2>CSS 3</h2>
+            <p>Tercera versión de las hojas de estilo. Incluye transiciones, animaciones, gradientes y flexbox, permitiendo diseños más complejos y atractivos visualmente.</p>
+            <hr>
+            <div class="footer__card">
+                <h3 class="user__name">Jhonatan Giraldo</h3>
+                <i>03 Junio</i>
+            </div>
+        </div>
+    </section>
+
+    <section class="container__videos">
+        <h2>¡Empieza por aquí!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LgJCAt2332M" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>Programación de software 2879871 - SENA<br>John Alexader Castiblanco | Jhonatan Giraldo</p>
+    </footer>
+</body>
+</html>
